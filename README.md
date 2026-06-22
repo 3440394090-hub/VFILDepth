@@ -64,30 +64,12 @@ This can be changed with the `--log_dir` flag.
 
 **Monocular training:**
 
+Pre-trained Lite-Mono can be avaliable at [here](https://github.com/noahzn/Lite-Mono) 
+
 ```shell
-python --model_name model_name --num_layers 18 --decoder_channel_scale [200,100,50] 
+python --model_name model_name --num_layers 18 --mypretrain ~/lite-mono_pretrain/models
 ```
 
-The decoder_channel_scale means
-
-| decoder channel scale | decoder channels for each stage |
-| :-------------------: | :-----------------------------: |
-|          2          |     {16, 32, 64, 128, 256}      |
-|          1          |      {8, 16, 32, 64, 128}       |
-|          0.5          |       {4, 8, 16, 32, 64}        |
-
-[//]: # (The encoder_mobilevit means the backbone network of MobileViTv1)
-
-[//]: # ()
-[//]: # (| Name |    Encoder    |)
-
-[//]: # (| :--: | :-----------: |)
-
-[//]: # (| xxs  | MobileViT_xxs |)
-
-[//]: # (|  xs  | MobileViT_xs  |)
-
-[//]: # (|  s   |  MobileViT_s  |)
 
 
 
