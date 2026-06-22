@@ -84,7 +84,7 @@ python export_gt_depth.py --data_path kitti_data --split eigen_benchmark
 
 The following example command evaluates the epoch 19 weights of a model named `mono_model`:
 ```shell
-python evaluate_depth.py --load_weights_folder ~/tmp/mono_model/models/weights_19/ --decoder_channel_scale [200,100,50]   --eval_mono
+python evaluate_depth.py --load_weights_folder ~/tmp/mono_model/models/weights_17/   --eval_mono
 ```
 If you train your own model with our code you are likely to see slight differences to the publication results due to randomization in the weights initialization and data loading.
 
@@ -191,7 +191,7 @@ Instead, a set of `.png` images will be saved to disk ready for upload to the ev
 
 ## Contact us 
 
-Contact us to avaliable model pre-trained weights: 2222308027@stmail.ujs.edu.cn
+Contact us to avaliable model pre-trained weights: 2222408078@stmail.ujs.edu.cn
 
 
 
