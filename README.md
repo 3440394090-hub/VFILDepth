@@ -75,6 +75,9 @@ python --model_name model_name --num_layers 18 --mypretrain ~/lite-mono_pretrain
 
 ## 📊KITTI evaluation
 
+You can download weights for some pretrained models here:
+* [KITTI](https://pan.baidu.com/s/1n0dtr72BQ5IKdYR-Q5hNSw?pwd=8888)
+
 To prepare the ground truth depth maps run:
 ```shell
 python export_gt_depth.py --data_path kitti_data --split eigen
@@ -191,7 +194,7 @@ Instead, a set of `.png` images will be saved to disk ready for upload to the ev
 
 ## Contact us 
 
-Contact us to avaliable model pre-trained weights: 2222408078@stmail.ujs.edu.cn
+If you have any questions, please feel free to contact us: 2222408078@stmail.ujs.edu.cn
 
 
 
